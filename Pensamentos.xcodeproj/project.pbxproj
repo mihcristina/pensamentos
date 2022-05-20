@@ -18,6 +18,10 @@
 		68329E4C2830942300F628E4 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 68329E4B2830942200F628E4 /* quotes.json */; };
 		68329E50283286A200F628E4 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E4F283286A100F628E4 /* QuotesViewController.swift */; };
 		68329E522832872900F628E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E512832872900F628E4 /* SettingsViewController.swift */; };
+		68329E572832CA3700F628E4 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E562832CA3700F628E4 /* Quote.swift */; };
+		68329E5A2832CA9700F628E4 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E592832CA9700F628E4 /* QuotesManager.swift */; };
+		68329E5C2832CAAE00F628E4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E5B2832CAAE00F628E4 /* Configuration.swift */; };
+		6835185F2836FAC100FED329 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 68329E4B2830942200F628E4 /* quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,9 @@
 		68329E4D2830943500F628E4 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
 		68329E4F283286A100F628E4 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		68329E512832872900F628E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		68329E562832CA3700F628E4 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		68329E592832CA9700F628E4 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		68329E5B2832CAAE00F628E4 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +111,12 @@
 		68329E1A283092D200F628E4 /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
+				68329E29283092D400F628E4 /* Info.plist */,
+				68329E4E2830944800F628E4 /* Files */,
 				68329E552832879F00F628E4 /* Setup */,
+				68329E582832CA6D00F628E4 /* Models */,
 				68329E542832878900F628E4 /* Views */,
 				68329E532832875E00F628E4 /* Controllers */,
-				68329E4E2830944800F628E4 /* Files */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -160,11 +169,20 @@
 			isa = PBXGroup;
 			children = (
 				68329E24283092D400F628E4 /* Assets.xcassets */,
-				68329E29283092D400F628E4 /* Info.plist */,
 				68329E1B283092D200F628E4 /* AppDelegate.swift */,
 				68329E1D283092D200F628E4 /* SceneDelegate.swift */,
 			);
 			path = Setup;
+			sourceTree = "<group>";
+		};
+		68329E582832CA6D00F628E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68329E562832CA3700F628E4 /* Quote.swift */,
+				68329E592832CA9700F628E4 /* QuotesManager.swift */,
+				68329E5B2832CAAE00F628E4 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6835185F2836FAC100FED329 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +320,10 @@
 			files = (
 				68329E50283286A200F628E4 /* QuotesViewController.swift in Sources */,
 				68329E1C283092D200F628E4 /* AppDelegate.swift in Sources */,
+				68329E5C2832CAAE00F628E4 /* Configuration.swift in Sources */,
 				68329E1E283092D200F628E4 /* SceneDelegate.swift in Sources */,
+				68329E572832CA3700F628E4 /* Quote.swift in Sources */,
+				68329E5A2832CA9700F628E4 /* QuotesManager.swift in Sources */,
 				68329E522832872900F628E4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
