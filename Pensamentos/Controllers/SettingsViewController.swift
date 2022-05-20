@@ -35,7 +35,7 @@ class SettingsViewController: UIViewController {
     }
     
     func changeTimeIntervalLabel(with value: Double) {
-        lbTimeInterval.text = "Mudar após \(value) segundos"
+        lbTimeInterval.text = "Mudar após \(Int(value)) segundos"
     }
     
 

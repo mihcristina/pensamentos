@@ -22,6 +22,7 @@
 		68329E5A2832CA9700F628E4 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E592832CA9700F628E4 /* QuotesManager.swift */; };
 		68329E5C2832CAAE00F628E4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68329E5B2832CAAE00F628E4 /* Configuration.swift */; };
 		6835185F2836FAC100FED329 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 68329E4B2830942200F628E4 /* quotes.json */; };
+		683518612837C10A00FED329 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 683518602837C10A00FED329 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		68329E562832CA3700F628E4 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		68329E592832CA9700F628E4 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		68329E5B2832CAAE00F628E4 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		683518602837C10A00FED329 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				68329E582832CA6D00F628E4 /* Models */,
 				68329E542832878900F628E4 /* Views */,
 				68329E532832875E00F628E4 /* Controllers */,
+				683518602837C10A00FED329 /* Settings.bundle */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			files = (
 				68329E4C2830942300F628E4 /* quotes.json in Resources */,
 				68329E28283092D400F628E4 /* LaunchScreen.storyboard in Resources */,
+				683518612837C10A00FED329 /* Settings.bundle in Resources */,
 				68329E25283092D400F628E4 /* Assets.xcassets in Resources */,
 				68329E23283092D200F628E4 /* Main.storyboard in Resources */,
 			);
